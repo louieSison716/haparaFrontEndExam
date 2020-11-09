@@ -1,0 +1,49 @@
+{
+  "name": "louie",
+  "version": "1.0.0",
+  "description": "Louie Project",
+  "main": "src/scripts/index.tsx",
+  "author": "louie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louie/louie.git/issues"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "node",
+    "npm",
+    "reactjs",
+    "redux"
+  ],
+  "homepage": "https://github.com/louie/louie.git#README",
+  "scripts": {
+    "start": "expo start",
+    "watch": "parcel watch src/scripts/index.tsx --no-hmr -d src/dist"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.14.1",
+    "deasync": "^0.1.16",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.2.0",
+    "imgix-core-js": "^2.3.1",
+    "louie": "file:",
+    "moment": "^2.29.1",
+    "postcss-import": "^12.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "styled-components": "^5.2.0",
+    "tailwindcss": "^1.9.4",
+    "typescript": "^4.0.3"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
